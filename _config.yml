@@ -16,7 +16,7 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>DEVELOPMENT NOTE</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -115,4 +115,4 @@ sass:
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*", "backup"]
