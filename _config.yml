@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://sylhare.github.io"
+url: "https://iicdii.github.io"
 title: Harimking # site's title
 description: "A blog sharing development experience with you" # used by search engines
 
