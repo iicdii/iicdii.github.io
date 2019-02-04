@@ -1,0 +1,86 @@
+---
+layout: default
+---
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
+    <p class="meta">
+    {{ page.date | date: "%B %-d, %Y" }}
+    {% if page.author %} - {{ page.author }}{% endif %}
+    </p>
+  </header>
+  <section class="post-content">
+  {% if page.bootstrap %}
+  <div class="bootstrap-iso">
+  {% endif %}
+
+    {% if page.images %}
+    <div id="carousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        {% for img in page.images %}
+        <li
+          data-target="#carousel"
+          data-slide-to="{{forloop.index | minus: 1 }}"
+          {% if forloop.index == 1 %}
+            class="active"
+          {% endif %}
+        >
+        </li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        {% for img in page.images %}
+          <div
+            {% if forloop.index == 1 %}
+              class="carousel-item active"
+            {% else %}
+              class="carousel-item"
+            {% endif %}
+          >
+            <img src="{{site.baseurl}}/{{img}}" class="d-block w-100" alt="">
+          </div>
+        {% endfor %}
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <script type="text/javascript">
+        $('.carousel').carousel({
+          interval: 2000
+        })
+      </script>
+    </div>
+    <br />
+    {% endif %}
+
+    {{ content }}
+  {% if page.bootstrap %}
+  </div>
+  {% endif %}
+  </section>
+
+  <!-- Social media shares -->
+  {% include share_buttons.html %}
+
+   <!-- Tag list -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+
+</article>
+
+<!-- Disqus -->
+{% if site.theme_settings.disqus_shortname %}
+<div class="comments">
+  {% include disqus.html %}
+</div>
+{% endif %}
+
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
+{% endif %}
