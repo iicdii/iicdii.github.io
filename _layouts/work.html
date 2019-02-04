@@ -15,45 +15,48 @@ layout: default
   {% endif %}
 
     {% if page.images %}
-    <div id="carousel" class="carousel slide">
-      <ol class="carousel-indicators">
-        {% for img in page.images %}
-        <li
-          data-target="#carousel"
-          data-slide-to="{{forloop.index | minus: 1 }}"
-          {% if forloop.index == 1 %}
-            class="active"
-          {% endif %}
-        >
-        </li>
-        {% endfor %}
-      </ol>
-      <div class="carousel-inner">
-        {% for img in page.images %}
-          <div
+    <div class="text-center">
+      <div id="carousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          {% for img in page.images %}
+          <li
+            data-target="#carousel"
+            data-slide-to="{{forloop.index | minus: 1 }}"
             {% if forloop.index == 1 %}
-              class="carousel-item active"
-            {% else %}
-              class="carousel-item"
+              class="active"
             {% endif %}
           >
-            <img src="{{site.baseurl}}/{{img}}" class="d-block w-100" alt="">
+          </li>
+          {% endfor %}
+        </ol>
+
+          <div class="carousel-inner">
+            {% for img in page.images %}
+              <div
+                {% if forloop.index == 1 %}
+                  class="carousel-item active"
+                {% else %}
+                  class="carousel-item"
+                {% endif %}
+              >
+                <img src="{{site.baseurl}}/{{img}}" alt="">
+              </div>
+            {% endfor %}
           </div>
-        {% endfor %}
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <script type="text/javascript">
+          $('.carousel').carousel({
+            interval: 2000
+          });
+        </script>
       </div>
-      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <script type="text/javascript">
-        $('.carousel').carousel({
-          interval: 2000
-        })
-      </script>
     </div>
     <br />
     {% endif %}

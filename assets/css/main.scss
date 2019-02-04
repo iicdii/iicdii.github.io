@@ -19,8 +19,9 @@ kbd {
 .bootstrap-iso img {
     padding: 0;
 }
-.bootstrap-iso #carousel {
-    box-shadow: 8px 8px 0 rgba(0,0,0,.15);
+.bootstrap-iso #carousel img {
+    max-height: 75vh;
+    min-width: auto;
 }
 
 .bootstrap-iso .carousel-control-prev-icon {
