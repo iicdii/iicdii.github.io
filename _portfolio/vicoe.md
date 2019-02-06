@@ -5,6 +5,7 @@ img: "assets/img/portfolio/vicoe.png"
 images: ["assets/img/portfolio/vicoe.png", "assets/img/portfolio/vicoe2.png", "assets/img/portfolio/vicoe3.png", "assets/img/portfolio/vicoe4.png"]
 date: July 2017
 bootstrap: true
+priority: 6
 tags: [React]
 ---
 

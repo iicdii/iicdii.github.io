@@ -5,6 +5,7 @@ img: "assets/img/portfolio/erpper_mobile.png"
 images: ["assets/img/portfolio/erpper_mobile.png"]
 date: November 2018
 bootstrap: true
+priority: 5
 tags: [React Native, GraphQL]
 ---
 

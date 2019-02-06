@@ -5,6 +5,7 @@ img: "assets/img/portfolio/qtnote.png"
 images: ["assets/img/portfolio/qtnote.png", "assets/img/portfolio/qtnote2.png", "assets/img/portfolio/qtnote3.png", "assets/img/portfolio/qtnote4.png"]
 date: July 2016
 bootstrap: true
+priority: 2
 tags: [Ruby on Rails, jQuery]
 ---
 

@@ -5,6 +5,7 @@ img: "assets/img/portfolio/mju_classroom.png"
 images: ["assets/img/portfolio/mju_classroom.png", "assets/img/portfolio/mju_classroom2.png", "assets/img/portfolio/mju_classroom3.png"]
 date: March 2016
 bootstrap: true
+priority: 3
 tags: [Ruby on Rails, jQuery]
 ---
 

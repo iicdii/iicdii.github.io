@@ -5,6 +5,7 @@ img: "assets/img/portfolio/geusong.png"
 images: ["assets/img/portfolio/geusong.png", "assets/img/portfolio/geusong2.png", "assets/img/portfolio/geusong3.png", "assets/img/portfolio/geusong4.png", "assets/img/portfolio/geusong5.png", "assets/img/portfolio/geusong6.png"]
 date: July 2017
 bootstrap: true
+priority: 1
 tags: [React, Node.js, Firebase, AWS]
 ---
 

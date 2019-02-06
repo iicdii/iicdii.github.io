@@ -5,6 +5,7 @@ img: "assets/img/portfolio/fanther.png"
 images: ["assets/img/portfolio/fanther.png", "assets/img/portfolio/fanther2.png"]
 date: March 2016
 bootstrap: true
+priority: 7
 tags: [React, Redux]
 ---
 

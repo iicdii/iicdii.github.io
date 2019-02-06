@@ -5,6 +5,7 @@ img: "assets/img/portfolio/oho.png"
 images: ["assets/img/portfolio/oho.png", "assets/img/portfolio/oho2.png"]
 date: August 2013
 bootstrap: true
+priority: 8
 tags: [Titanium, JavaScript]
 ---
 
