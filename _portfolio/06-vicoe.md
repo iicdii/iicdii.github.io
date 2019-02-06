@@ -3,7 +3,7 @@ layout: work
 title: Vicoe 관리자 페이지
 img: "assets/img/portfolio/vicoe.png"
 images: ["assets/img/portfolio/vicoe.png", "assets/img/portfolio/vicoe2.png", "assets/img/portfolio/vicoe3.png", "assets/img/portfolio/vicoe4.png"]
-date: July 2017
+period: [2017-07, 2017-09]
 bootstrap: true
 priority: 6
 tags: [React]

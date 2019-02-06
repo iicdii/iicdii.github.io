@@ -3,7 +3,7 @@ layout: work
 title: Fanther
 img: "assets/img/portfolio/fanther.png"
 images: ["assets/img/portfolio/fanther.png", "assets/img/portfolio/fanther2.png"]
-date: March 2016
+period: [2016-03, 2018-05]
 bootstrap: true
 priority: 7
 tags: [React, Redux]

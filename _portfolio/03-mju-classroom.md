@@ -3,7 +3,7 @@ layout: work
 title: 명지대학교 빈 강의실 찾기
 img: "assets/img/portfolio/mju_classroom.png"
 images: ["assets/img/portfolio/mju_classroom.png", "assets/img/portfolio/mju_classroom2.png", "assets/img/portfolio/mju_classroom3.png"]
-date: March 2016
+period: [2016-03, 2016-06]
 bootstrap: true
 priority: 3
 tags: [Ruby on Rails, jQuery]

@@ -1,8 +1,7 @@
 <!-- Portfolio Grid Section -->
 
 <div class="portfolio-grid">
-    {% assign items = site.portfolio | sort: 'priority' %}
-    {% for item in items %}
+    {% for item in site.portfolio %}
     <div class="portfolio-cell">
         <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
             <div class="caption" title="{{ item.title }}">

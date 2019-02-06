@@ -3,7 +3,7 @@ layout: work
 title: Open Hiking Online
 img: "assets/img/portfolio/oho.png"
 images: ["assets/img/portfolio/oho.png", "assets/img/portfolio/oho2.png"]
-date: August 2013
+period: [2013-08, 2013-10]
 bootstrap: true
 priority: 8
 tags: [Titanium, JavaScript]

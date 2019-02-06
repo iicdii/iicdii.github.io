@@ -3,7 +3,7 @@ layout: work
 title: ERPPER
 img: "assets/img/portfolio/erpper.png"
 images: ["assets/img/portfolio/erpper.png", "assets/img/portfolio/erpper2.png", "assets/img/portfolio/erpper3.png", "assets/img/portfolio/erpper4.png", "assets/img/portfolio/erpper5.png"]
-date: November 2016 ~
+period: [2016-11]
 bootstrap: true
 priority: 4
 tags: [React, Node.js, GraphQL]

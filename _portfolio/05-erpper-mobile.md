@@ -3,7 +3,7 @@ layout: work
 title: Erpper Mobile
 img: "assets/img/portfolio/erpper_mobile.png"
 images: ["assets/img/portfolio/erpper_mobile.png"]
-date: November 2018
+period: [2018-11, 2018-12]
 bootstrap: true
 priority: 5
 tags: [React Native, GraphQL]

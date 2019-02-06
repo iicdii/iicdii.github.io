@@ -3,7 +3,7 @@ layout: work
 title: 그송 온라인
 img: "assets/img/portfolio/geusong.png"
 images: ["assets/img/portfolio/geusong.png", "assets/img/portfolio/geusong2.png", "assets/img/portfolio/geusong3.png", "assets/img/portfolio/geusong4.png", "assets/img/portfolio/geusong5.png", "assets/img/portfolio/geusong6.png"]
-date: July 2017
+period: [2017-07, 2017-09]
 bootstrap: true
 priority: 1
 tags: [React, Node.js, Firebase, AWS]
