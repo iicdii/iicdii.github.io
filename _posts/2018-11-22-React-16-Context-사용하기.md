@@ -304,4 +304,4 @@ value 뿐만 아니라 'Action'도 전달이 가능하다는 말이다.
 
 [React Official Context Document](https://reactjs.org/docs/context.html){: target="_blank" }, https://reactjs.org/docs/context.html
 
-[Context api vs Redux](https://daveceddia.com/context-api-vs-redux/){: target="_blank" }, https://reactjs.org/docs/context.html
+[Context api vs Redux](https://daveceddia.com/context-api-vs-redux/){: target="_blank" }, https://daveceddia.com/context-api-vs-redux/
